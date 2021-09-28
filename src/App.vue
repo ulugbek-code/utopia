@@ -136,7 +136,11 @@ section {
 }
 .sub a {
   color: rgb(233, 219, 219);
+  transition: all 0.4s ease;
   text-decoration: none;
+}
+.sub a:hover {
+  text-decoration: underline;
 }
 footer {
   width: 80%;
