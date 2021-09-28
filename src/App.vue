@@ -30,11 +30,11 @@
         <h3>Свяжитесь с нами!</h3>
         <p>+998 88 300-32-02</p>
         <a href="mailto: Utopia.Uzbekistan@gmail.com" target="_blank"
-          ><p>Utopia.Uzbekistan@</p></a
+          ><p>Utopia.Uzbekistan@gmail.com</p></a
         >
       </div>
     </section>
-    <footer>© {{ new Date().getFullYear() }} | ООО "UTOPIA"</footer>
+    <footer>© {{ new Date().getFullYear() }} | "UTOPIA"</footer>
   </div>
 </template>
 
@@ -73,6 +73,7 @@ header {
   font-size: 5rem;
 }
 .logo p {
+  font-family: "Sofia", cursive;
   font-size: 1.5rem;
   text-align: end;
 }
