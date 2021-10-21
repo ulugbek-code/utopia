@@ -33,14 +33,25 @@
           ><p>Utopia.Uzbekistan@gmail.com</p></a
         >
       </div>
+      <Counter
+        :year="2021"
+        :month="11"
+        :date="21"
+        :hour="0"
+        :minute="0"
+        :second="0"
+        :millisecond="0"
+      />
     </section>
     <footer>© {{ new Date().getFullYear() }} | "UTOPIA"</footer>
   </div>
 </template>
 
 <script>
+import Counter from "@/components/Counter.vue";
 export default {
-  name: "App",
+  // name: "App",
+  components: { Counter },
 };
 </script>
 
