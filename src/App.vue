@@ -118,9 +118,9 @@ section {
   margin: 0 auto;
   color: rgb(233, 219, 219);
 }
-.main {
+/* .main {
   animation: fading 3s ease infinite;
-}
+} */
 .main h1 {
   font-size: 5rem;
   animation: coming-home 3s ease;
@@ -161,7 +161,7 @@ footer {
   font-family: "Days One", sans-serif;
   color: rgb(233, 219, 219);
 }
-@keyframes fading {
+/* @keyframes fading {
   0% {
     opacity: 0;
   }
@@ -171,7 +171,7 @@ footer {
   100% {
     opacity: 0;
   }
-}
+} */
 @keyframes coming-home {
   0% {
     transform: translateX(-100%);
